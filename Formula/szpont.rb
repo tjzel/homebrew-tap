@@ -1,25 +1,25 @@
 class Szpont < Formula
   desc "szpont machen — AI session manager TUI for Claude Code, Codex and Kimi Code"
   homepage "https://github.com/tjzel/szpont-machen"
-  version "1.0.2"
+  version "1.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.2/szpont-aarch64-apple-darwin.tar.xz"
-      sha256 "85695ba297ccbbdfb673b742f501f245470d4b65cd54383595a88401bb241a73"
+      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.3/szpont-aarch64-apple-darwin.tar.xz"
+      sha256 "697f9ff02bf814daa8dcacb5be6f7700eb119850fdd1a36454f25bdc354a065a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.2/szpont-x86_64-apple-darwin.tar.xz"
-      sha256 "ec3cda23cf8bfad8d8da7baeee855194506587ec3685aedb2a590258a4b592f3"
+      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.3/szpont-x86_64-apple-darwin.tar.xz"
+      sha256 "a71cd512fd0a713ace51c2232bdd64c76dda648a93230aeb609b507cf41c943a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.2/szpont-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6654e7f50fd208f61c1c8f88700d0e30a406c4e2e83a4d9974a295e60c4a6c21"
+      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.3/szpont-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ed298cd657730debe7f61c74115727dea2fd959fda1ed634e0171d72a4e2207a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.2/szpont-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0d8326bcfc9c08e709e71dd86f99f19d90067ea980ad855015e26f0b2409d9de"
+      url "https://github.com/tjzel/szpont-machen/releases/download/v1.0.3/szpont-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "09ca7928a3238f13ec04e6f70de0c135b12e3f4bbe23ccb5f1d5ea8383df3f29"
     end
   end
   license "Unlicense"
